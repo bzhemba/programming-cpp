@@ -1,5 +1,5 @@
 
-#include "Array.h"
+#include "lab3/Array.h"
 #include "iostream"
 
 using namespace std;

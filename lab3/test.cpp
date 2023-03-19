@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "../../../Desktop/new/programming-c-/ComplexNumber.h"
+#include "ComplexNumber.h"
 
 using testing::Eq;
 

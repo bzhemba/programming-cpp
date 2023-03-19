@@ -1,4 +1,4 @@
-#include "ComplexNumber.h"
+#include "lab3/ComplexNumber.h"
 #include <math.h>
 #include <stdio.h>
 using namespace std;
