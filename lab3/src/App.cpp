@@ -5,6 +5,8 @@
 #include "App.h"
 
 int App::start(int arg1, int arg2, int arg3) {
+    complexNumber(arg1, arg2);
+    array(arg3);
     return 0;
 }
 App::App(
