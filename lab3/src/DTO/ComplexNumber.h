@@ -1,7 +1,7 @@
 #ifndef UNTITLED8_COMPLEXNUMBER_H
 #define UNTITLED8_COMPLEXNUMBER_H
 
-namespace Service {
+namespace DTO {
     class ComplexNumber {
     private:
         int re;

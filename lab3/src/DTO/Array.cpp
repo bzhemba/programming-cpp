@@ -1,9 +1,9 @@
 
 #include "iostream"
-#include "lab3/src/Service/Array.h"
+#include "lab3/src/DTO/Array.h"
 
 using namespace std;
-namespace Service {
+namespace DTO {
     Array::Array(int size) {
         if (size == 0) {
             len = 100;
@@ -16,7 +16,7 @@ namespace Service {
         }
     }
 
-    void Array::setArray() {
+    void Array::setArrayFromDialog() {
         for (int ix = 0; ix < len; ix++)
             cin >> ptr[ix];
     }
@@ -63,6 +63,13 @@ namespace Service {
             result.ptr[i] = a2.ptr[i];
         }
         return result;
+    }
+
+    void Array::printArray(const Array &a) {
+        for(int i = 0; i < a.len; i++){
+            cout << ptr[i];
+        }
+
     };
 }
 

@@ -5,7 +5,7 @@
 #ifndef NEW_ARRAY_H
 #define NEW_ARRAY_H
 
-namespace Service {
+namespace DTO {
     class Array {
     private:
         int len;
@@ -13,7 +13,7 @@ namespace Service {
     public:
         explicit Array(int);
 
-        void setArray();
+        void setArrayFromDialog();
 
         bool operator<(const Array &a2) const;
 
@@ -24,6 +24,8 @@ namespace Service {
         bool operator!=(const Array &a2) const;
 
         Array operator+(Array &a2);
+
+        void printArray(const Array &a);
     };
 }
 

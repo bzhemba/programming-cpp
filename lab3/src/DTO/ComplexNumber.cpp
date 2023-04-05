@@ -1,8 +1,8 @@
-#include "lab3/src/Service/ComplexNumber.h"
+#include "lab3/src/DTO/ComplexNumber.h"
 #include <math.h>
 #include <stdio.h>
 using namespace std;
-namespace Service {
+namespace DTO {
     ComplexNumber ComplexNumber::operator*=(float num) const {
         return ComplexNumber(re * num, im * num);
     }
