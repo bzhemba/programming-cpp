@@ -1,9 +1,9 @@
 //
 // Created by мария баженова on 16.03.2023.
 //
-#include "lab2/src/Service/WorkWithFiles.h"
-#include "lab2/src/Service/Console.h"
-#include "lab2/src/Service/DisplayServiceInterface.h"
+#include "Service/WorkWithFiles.h"
+#include "Service/Console.h"
+#include "Service/DisplayServiceInterface.h"
 #ifndef LAB2_APP_H
 #define LAB2_APP_H
 

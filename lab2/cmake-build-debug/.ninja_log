@@ -1,0 +1,9 @@
+# ninja log v5
+406	448	1679944470519651037	lab2	5ced06da82f33bdc
+0	57	1680183973900840463	build.ninja	b64250977ac6b505
+3	387	1679136551103531228	CMakeFiles/lab2.dir/App.cpp.o	f58b37f1f71d8b50
+0	8	0	clean	a4b15829ea80e973
+2	406	1679944470474656992	CMakeFiles/lab2.dir/main.cpp.o	a13119e789644ef7
+3	395	1679943986354619556	CMakeFiles/lab2.dir/src/Service/Console.cpp.o	2624eae7bba4351a
+3	383	1679944367752548091	CMakeFiles/lab2.dir/src/App.cpp.o	a03c4eeaad2e59b2
+3	427	1679944153418709970	CMakeFiles/lab2.dir/src/Service/WorkWithFiles.cpp.o	2ce0d5f1415cc8d5
